@@ -15,12 +15,15 @@ body {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-}
+    margin: 0 auto;
+    }
 
 ul {
     list-style-type: none;
+}
+
+img {
+    display: block;
 }
 
 .nav {
@@ -175,7 +178,12 @@ align-items: center;
     padding: 120px 0
 }
 .visually-hidden {
-    overflow: hidden;
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    clip: auto;
+    overflow: visible;
 }
 .studio-menu {
     display: flex;
@@ -228,8 +236,7 @@ width: calc((100% - 72px) / 4);
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-mark {
@@ -275,8 +282,7 @@ width: calc((100% - 72px) / 4);
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .portfolio-menu {
