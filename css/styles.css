@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;}
+
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
@@ -5,9 +11,29 @@ body {
   
 }
 
+.container {
+    max-width: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 ul {
     list-style-type: none;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.header{
+    padding: 24px 156px;
+    margin: 0;
+
 }
 
 .logo {
@@ -18,6 +44,11 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
 }
 
 .accent {
@@ -27,6 +58,14 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+}
+
+.menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
 }
 
 .link {
@@ -52,29 +91,35 @@ ul {
     letter-spacing: 0.02em;
     font-style: normal;
     color: #434455;
+    
 }
 
-.contacts .contacts-mailto {
+.contacts-list {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
     color: #434455;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
 }
 
-.contacts .contacts-mailto:hover {
+.contacts .contacts-list:hover {
     color: #404bbf;
 }
 
-.contacts .contacts-mailto:focus {
+.contacts .contacts-list:focus {
     color: #404bbf;
 }
 
 
 .page {
+    width: 1440px;
+    height: 600px;
     background: #2e2f42;
-}
+        }
 
 .page-title {
     font-weight: 700;
@@ -83,7 +128,9 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    padding: 186px 472px 48px;
 }
+
 
 .button {
     font-family: "Roboto", sans-serif;
@@ -94,6 +141,14 @@ ul {
     color: #fff;
     background: #4d5ae5;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+
 }
 
 .button:hover {
@@ -102,6 +157,18 @@ ul {
 
 .button:focus {
     background-color: #404BBF;
+}
+
+.studio-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+    width: 1128px;
+    height: 104px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .studio-title {
@@ -121,6 +188,15 @@ ul {
 
 .team {
     background-color: #F4F4FD;
+    padding-bottom: 120px;
+}
+
+.team-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
 }
 
 .team-page {
@@ -131,6 +207,8 @@ ul {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .team-mark {
@@ -163,6 +241,19 @@ ul {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.portfolio-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-bottom: 120px;
+    width: calc((100% - 24px) / 2);
 }
 
 
@@ -184,6 +275,13 @@ ul {
 
 .footer-page {
     background: #2e2f42;
+    width: 1440px;
+    height: 312px;
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 0px;
 }
 
 .footer-logo{
@@ -194,6 +292,8 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding-top: 100px;
+    padding-left: 156px;
 }
 
 .footer-accent {
@@ -203,6 +303,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    
 }
 
 .footer-text {
@@ -211,5 +312,10 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    padding-top: 16px;
+    padding-left: 156px;
+    padding-right: 1020px;
+    padding-bottom: 100px;
+    
 }
 
