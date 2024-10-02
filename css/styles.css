@@ -178,7 +178,7 @@ img {
     gap: 24px;
 }
 
-.visually-hidden .studio-item {
+.studio-item {
     flex-basis: calc((100% - 72px) / 4);
 }
 
