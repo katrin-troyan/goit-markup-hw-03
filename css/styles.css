@@ -163,9 +163,19 @@ img {
 .studio {
     padding: 120px 0
 }
-.visually-hidden {
-    visibility: hidden;
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
+
 .studio-menu {
     display: flex;
     align-items: center;
@@ -175,8 +185,8 @@ img {
 
 }
 
-.studio-item {
-    width: calc((100% - 72px) / 4);
+.studio-menu .studio-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .studio-title {
@@ -219,10 +229,10 @@ img {
     margin-bottom: 72px;
 }
 
-.team-mark {
+.team-menu .team-mark {
     background-color: #FFFFFF;
     display: block;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -275,7 +285,7 @@ img {
     row-gap: 48px;
     }
 
-.portfolio-item {
+.portfolio .portfolio-item {
     width: calc((100% - 48px) / 3);
 }
 
