@@ -93,30 +93,30 @@ img {
     color: #434455;
 }
 
-.contacts .contacts-menu {
+.contacts-menu {
     display: flex;
     gap: 40px;
-    }
+}
 
-.contacts .contacts-mailto {
+.contacts-list {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
     color: #434455;
-    margin-right: 156px;
-    
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
 }
 
-.contacts .contacts-mailto:hover {
+.contacts .contacts-list:hover {
     color: #404bbf;
 }
 
-.contacts .contacts-mailto:focus {
+.contacts .contacts-list:focus {
     color: #404bbf;
 }
-
 
 .page {
     background: #2e2f42;
@@ -185,8 +185,8 @@ img {
 
 }
 
-.studio .studio-item {
-    flex-basis: calc((100% - 72px) / 4);
+.studio-menu .studio-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .studio-title {
