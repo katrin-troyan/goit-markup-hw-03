@@ -158,7 +158,7 @@ img {
 }
 
 .studio {
-    padding: 120px 0
+    padding: 120px 0;
 }
 .visually-hidden:not(:focus):not(:active) {
     position: absolute;
@@ -181,7 +181,7 @@ img {
     gap: 24px;
 }
 
-.studio-menu .studio-item {
+.studio .studio-item {
     flex-basis: calc((100% - 72px) / 4);
 }
 
