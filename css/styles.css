@@ -178,7 +178,8 @@ img {
     gap: 24px;
 }
 
-.studio .studio-item {
+.studio-menu .studio-item {
+    display: block;
     flex-basis: calc((100% - 72px) / 4);
 }
 
