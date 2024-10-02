@@ -178,8 +178,8 @@ img {
     gap: 24px;
 }
 
-.studio-item {
-    width: calc((100% - 72px) / 4);
+.studio .studio-item {
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .studio-title {
@@ -270,9 +270,6 @@ img {
 
 .portfolio-menu {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
