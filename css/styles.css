@@ -93,12 +93,12 @@ img {
     color: #434455;
 }
 
-.contacts-menu {
+.contacts .contacts-menu {
     display: flex;
     gap: 40px;
     }
 
-.contacts-list {
+.contacts .contacts-mailto {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -109,11 +109,11 @@ img {
     
 }
 
-.contacts .contacts-list:hover {
+.contacts .contacts-mailto:hover {
     color: #404bbf;
 }
 
-.contacts .contacts-list:focus {
+.contacts .contacts-mailto:focus {
     color: #404bbf;
 }
 
@@ -185,8 +185,8 @@ img {
 
 }
 
-.studio-menu .studio-item {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+.studio .studio-item {
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .studio-title {
