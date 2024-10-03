@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    width: 1200px;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
     }
@@ -223,7 +223,7 @@ img {
     margin-bottom: 72px;
 }
 
-.team-mark {
+.team-menu .team-mark {
     background-color: #FFFFFF;
     display: block;
     flex-basis: calc((100% - 72px) / 4);
@@ -276,7 +276,7 @@ img {
     row-gap: 48px;
     }
 
-.portfolio-item {
+.portfolio .portfolio-item {
     width: calc((100% - 48px) / 3);
 }
 
