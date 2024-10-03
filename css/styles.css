@@ -178,8 +178,8 @@ img {
     gap: 24px;
 }
 
-.visually-hidd .studio-item {
-    flex-basis: calc((100% - 72px) / 4);
+.studio-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .studio-title {
