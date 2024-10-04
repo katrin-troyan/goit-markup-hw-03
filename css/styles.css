@@ -168,6 +168,7 @@ img {
         align-items: flex-start;
         justify-content: center;
         flex-direction: row;
+        margin: 0 auto;
      
 }
 .visually-hidden:not(:focus):not(:active) {
@@ -188,7 +189,7 @@ img {
      gap: 24px;
 }
 
-.studio .studio-item {
+.studio-menu .studio-item {
     flex-basis: calc((100% - 72px) / 4);
 }
 
