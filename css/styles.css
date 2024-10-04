@@ -11,12 +11,6 @@ body {
   
 }
 
-.container {
-    width: 1158px;
-    padding: 0 auto;
-    margin: 0 auto;
-    }
-
 ul {
     list-style-type: none;
 }
@@ -31,9 +25,16 @@ img {
 
 .header-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+
 }
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    }
+
+
 
 .nav {
     display: flex;
