@@ -25,6 +25,7 @@ img {
 
 .header .container {
     display: flex;
+    justify-content: space-between;
 
 }
 
@@ -162,7 +163,7 @@ img {
     background-color: #404BBF;
 }
 
-.studio {
+.studio .container {
     padding: 120px 0;  
 
 }
@@ -183,12 +184,11 @@ img {
 .studio-menu {
     display: flex;
     gap: 24px;
-
-
 }
 
 .studio-item {
     flex-basis: calc((100% - 72px) / 4);
+    
 }
 
 .studio-title {
@@ -261,7 +261,7 @@ img {
     color: #434455;
 }
 
-.portfolio-section {
+.portfolio-section .container {
     padding: 120px 0;
 }
 
@@ -276,14 +276,14 @@ img {
     margin-bottom: 72px;
 }
 
-.portfolio-menu {
+.portfolio-menu  {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
     }
 
-.portfolio-item {
+.portfolio .portfolio-item {
     width: calc((100% - 48px) / 3);
        }
 
