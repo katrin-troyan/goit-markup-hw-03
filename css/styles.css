@@ -23,12 +23,12 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
+.header .container {
     display: flex;
 
 }
 
-.header-container .container {
+.container {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
